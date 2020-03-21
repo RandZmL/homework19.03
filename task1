@@ -1,0 +1,23 @@
+#include <iostream>
+#include <fstream>
+#include <stdlib.h>
+
+int main()  {
+
+	const int n = 50;
+	int arr[n];
+
+    srand(2547);
+
+	for (int i = 0; i < n; i++) {
+		arr[i] = rand() % 30 - 10;
+		std::cout << arr[i] << std::endl;
+
+	}
+
+	std::cin.get();
+	std::cin.get();
+
+
+	return 0;
+}
